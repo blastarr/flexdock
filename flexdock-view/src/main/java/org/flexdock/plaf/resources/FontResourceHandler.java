@@ -60,7 +60,7 @@ public class FontResourceHandler extends ResourceHandler {
             }
         }
 
-        FontUIResource defaultFont = (FontUIResource)UIManager.getDefaults().getFont(BASE_FONT_KEY);
+        Font defaultFont = UIManager.getDefaults().getFont(BASE_FONT_KEY);
         if(name==null) {
             name = defaultFont.getName();
         }
