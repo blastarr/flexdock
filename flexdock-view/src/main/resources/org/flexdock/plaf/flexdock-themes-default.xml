@@ -50,9 +50,9 @@
 		<titlebar-ui name="default">
 			<property name="button-ui" value="default"/>
 			<property name="button.margin" value="2"/>
-			<property name="default.height" value="20" />
-			<property name="font" value="Dialog, 0, 11" handler="font"/>
-			<property name="font.color" value="#000000" handler="color"/>
+			<property name="default.height" value="25" />
+			<property name="font" value="Dialog, 0, 14" handler="font"/>
+			<property name="font.color" value="#D0D0D0" handler="color"/>
 			<property name="font.color.active" value="#FFFFFF" handler="color"/>
 			<property name="painter" value="defaultPainter" handler="paint"/>
 		</titlebar-ui>
@@ -60,7 +60,7 @@
 		<!-- List the various painters available -->
 		<painter-resource name="defaultPainter">
 			<property name="classname" value="org.flexdock.plaf.resources.paint.DefaultPainter"/>
-			<property name="bgcolor" value="#D4D0C8" handler="color"/>
+			<property name="bgcolor" value="#606060" handler="color"/>
 		</painter-resource>
 
 		<painter-resource name="gradientPainter">
