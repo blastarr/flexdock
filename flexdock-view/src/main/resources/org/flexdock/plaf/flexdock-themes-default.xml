@@ -60,7 +60,8 @@
 		<!-- List the various painters available -->
 		<painter-resource name="defaultPainter">
 			<property name="classname" value="org.flexdock.plaf.resources.paint.DefaultPainter"/>
-			<property name="bgcolor" value="#606060" handler="color"/>
+			<property name="bgcolor" value="#404040" handler="color"/>
+			<property name="bgcolor.active" value="#606060" handler="color"/>
 		</painter-resource>
 
 		<painter-resource name="gradientPainter">
